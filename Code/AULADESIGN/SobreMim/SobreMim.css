@@ -1,0 +1,16 @@
+body{
+
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+   background:linear-gradient(white,silver)
+
+}
+.footer{
+    font-family: cursive;
+    text-align: center;
+  background:-webkit-repeating-linear-gradient(90deg , white , silver)
+}  

@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: -webkit-repeating-linear-gradient(90deg, black, red)
+}
+.container{
+    font-family: cursive;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+
+}
+.menu{
+
+    font-family: cursive;
+    text-align: center;
+    background-color: rgba(0,0,0, 0.5);
+    padding: 10px;
+    background:-webkit-repeating-linear-gradient(90deg , white , silver)
+    }
+.menu ul{
+    list-style: none;
+    padding: 0;
+
+}
+.menu li{
+    display:inline;
+    margin-right: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: rebeccapurple;
+    font-size: 18pt;
+    font-weight: bold;
+}
+.footer{
+    font-family: cursive;
+    text-align: center;
+  background:-webkit-repeating-linear-gradient(90deg , white , silver)
+}  
